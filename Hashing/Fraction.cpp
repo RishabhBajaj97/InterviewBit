@@ -32,7 +32,7 @@ string Solution::fractionToDecimal(int numerator, int denominator) {
     res += '.';
     
     unordered_map<int, int> m;
-    
+    //please explain this loop
     for (; rem; rem %= d)
     {
         if (m.find(rem) != m.end())
